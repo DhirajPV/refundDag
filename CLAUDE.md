@@ -1,0 +1,4 @@
+- Java 21, use records for DTOs, small focused classes.
+- Javalin for HTTP, java.net.http.HttpClient for service-to-service calls.
+- After every change, run ./gradlew test. Never leave tests failing.
+- Prefer in-memory stores (ConcurrentHashMap) unless told otherwise.
